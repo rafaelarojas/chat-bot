@@ -65,7 +65,9 @@ def processar_resposta(resposta, nome):
               f'\na declaração original e faça as correções necessárias.\n')
     elif resposta == '0':
         print(f'\n{nome}, Gostaria de tirar mais dúvidas ou contatar nossos serviços?'
-                f'\n Entre em contato pelo número xxxxx-xxxx\n')
+                f'\n Entre em contato pelo número xxxxx-xxxx'
+                f'\n e faça seu imposto de renda com a gente!'
+                f'\n Damos 5 anos de garantia no seu imposto\n')
     else:
         print('Digite apenas números de 0 à 9')
 def start():
