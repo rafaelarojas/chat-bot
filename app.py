@@ -1,5 +1,5 @@
 #chatbot para empresa que realiza declaração do imposto de renda
-def processar_resposta(resposta, nome):
+def answer(resposta, nome):
     #respostas do menu de opções
     if resposta == '1':
         print(f'\n{nome}, Para declarar o imposto de renda, você deve acessar o programa disponibilizado pela Receita Federal, '
@@ -70,7 +70,7 @@ def processar_resposta(resposta, nome):
                 f'\n Damos 5 anos de garantia no seu imposto\n')
     else:
         print('Digite apenas números de 0 à 9')
-def start():
+def menssage():
     #apresenta o chatbot
     print('Olá! Obrigado por entrar em contato conosco! '
           '\nSou um assistente virtual da empresa de Imposto '
@@ -93,6 +93,6 @@ def start():
                      f'\n__________________________________________________________________________________\n')
         processar_resposta(resposta, nome)
 
-#mensagem entrar em looping
+#mensagem entrar em looping, assim que o arquivo for executado a função
 if __name__ == '__main__':
-    start()
+    menssage()
